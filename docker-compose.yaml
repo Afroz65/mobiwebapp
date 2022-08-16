@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  javedwebapp:
+    image: javedmobiwebapp:v1
+    build: .
+    container_name: javedwebc1
+    ports:
+      - 6583:80
+    restart: always
